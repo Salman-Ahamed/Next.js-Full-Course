@@ -1,4 +1,4 @@
-import { NewPage } from "@/components/new-page";
+import { NewPage } from "@/components/common";
 
 type Props = { params: Promise<{ id: string }> };
 
