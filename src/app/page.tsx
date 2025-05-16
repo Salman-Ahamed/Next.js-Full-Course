@@ -1,17 +1,16 @@
-"use client";
-
-import { Button } from "@/components/common";
+import { Hero } from "./_components/hero";
 
 const HomePage = () => {
   return (
     <main>
-      <Button
+      <Hero />
+      {/* <Button
         title="Click me"
         onClick={() => alert("Button clicked")}
         phone={1234567890}
       >
         Click me
-      </Button>
+      </Button> */}
     </main>
   );
 };
