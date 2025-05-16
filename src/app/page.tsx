@@ -1,16 +1,11 @@
-import { Hero } from "./_components/hero";
+import Image from "next/image";
 
 const HomePage = () => {
   return (
-    <main>
-      <Hero />
-      {/* <Button
-        title="Click me"
-        onClick={() => alert("Button clicked")}
-        phone={1234567890}
-      >
-        Click me
-      </Button> */}
+    <main className="flex justify-center items-center h-screen w-full bg-slate-500">
+      <Image alt="" src="/vercel.svg" width={50} height={5} />
+      <Image alt="" src="/next.svg" width={100} height={100} />
+      {/* <Hero /> */}
     </main>
   );
 };
