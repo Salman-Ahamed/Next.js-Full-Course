@@ -1,4 +1,4 @@
-import { NewPage } from "@/components/new-page";
+import { NewPage } from "@/components/common";
 
 const AboutPage = () => {
   return <NewPage title="About Page" />;
