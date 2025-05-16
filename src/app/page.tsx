@@ -25,6 +25,7 @@ const HomePage = async () => {
 
   return (
     <main className="flex flex-col justify-center items-center h-screen w-full bg-slate-500">
+      <h1 className="text-green-500 pb-20 text-5xl font-bold">Home Page</h1>
       <section className="grid grid-cols-3 gap-2.5 place-items-center">
         {data?.slice(0, 10).map((post: any) => (
           <div
