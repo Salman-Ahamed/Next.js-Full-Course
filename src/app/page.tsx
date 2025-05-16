@@ -1,7 +1,18 @@
-import { NewPage } from "@/components/common";
+import { Hero } from "./_components/hero";
 
 const HomePage = () => {
-  return <NewPage title="Home Page" />;
+  return (
+    <main>
+      <Hero />
+      {/* <Button
+        title="Click me"
+        onClick={() => alert("Button clicked")}
+        phone={1234567890}
+      >
+        Click me
+      </Button> */}
+    </main>
+  );
 };
 
 export default HomePage;

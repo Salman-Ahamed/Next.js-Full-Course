@@ -22,7 +22,7 @@ const RootLayout = ({ children }: TChildren) => {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased p-10 min-h-screen `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen `}
       >
         {children}
       </body>
